@@ -1,4 +1,4 @@
-package com.example.geofencinginitialdemo
+package com.example.geofencinginitialdemo.old
 
 import android.content.Context
 import androidx.work.*
@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit
 
 class GeofenceExitWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {
     override suspend fun doWork(): Result {
-        sendNotification()
+        com.example.geofencinginitialdemo.permission.sendNotification(context = this.applicationContext)
         return Result.success()
     }
 

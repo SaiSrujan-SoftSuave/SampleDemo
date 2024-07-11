@@ -21,13 +21,12 @@ class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.Q)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        val geofenceHelper = GeofenceHelper(this)
-//        geofenceHelper.addGeofence("geofenceId", latitude, longitude, 500f)
+
 
         setContent {
             GeofencingInitialDemoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    LocationPermissionScreen(modifier = Modifier.padding(innerPadding))
+                   SampleScreen(Modifier.padding(innerPadding))
                 }
             }
         }

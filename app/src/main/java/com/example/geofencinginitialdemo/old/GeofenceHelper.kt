@@ -1,4 +1,4 @@
-package com.example.geofencinginitialdemo
+package com.example.geofencinginitialdemo.old
 
 import android.app.PendingIntent
 import android.content.Context
@@ -7,7 +7,6 @@ import com.google.android.gms.location.Geofence
 import com.google.android.gms.location.GeofencingClient
 import com.google.android.gms.location.GeofencingRequest
 import com.google.android.gms.location.LocationServices
-import com.google.android.gms.tasks.OnCompleteListener
 
 class GeofenceHelper(context: Context) {
 
@@ -28,14 +27,5 @@ class GeofenceHelper(context: Context) {
             .setInitialTrigger(GeofencingRequest.INITIAL_TRIGGER_ENTER)
             .addGeofence(geofence)
             .build()
-
-//        geofencingClient.addGeofences(geofencingRequest, geofencePendingIntent)
-//            .addOnCompleteListener(OnCompleteListener {
-//                if (it.isSuccessful) {
-//                    // Geofence added successfully
-//                } else {
-//                    // Failed to add geofence
-//                }
-//            })
     }
 }

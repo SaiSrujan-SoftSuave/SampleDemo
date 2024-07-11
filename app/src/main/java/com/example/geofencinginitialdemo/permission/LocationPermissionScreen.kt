@@ -1,4 +1,4 @@
-package com.example.geofencinginitialdemo
+package com.example.geofencinginitialdemo.permission
 import android.Manifest
 import android.content.Intent
 import android.os.Build

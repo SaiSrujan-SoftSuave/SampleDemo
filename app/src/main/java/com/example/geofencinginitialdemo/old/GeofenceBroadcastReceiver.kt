@@ -1,4 +1,4 @@
-package com.example.geofencinginitialdemo
+package com.example.geofencinginitialdemo.old
 
 import android.content.BroadcastReceiver
 import android.content.Context

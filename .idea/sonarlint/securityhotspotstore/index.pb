@@ -19,3 +19,7 @@ z
 Japp/src/main/java/com/example/geofencinginitialdemo/LocationPermissions.kt,6/7/672ec0188d5957b9cd1343e29b31dae640164070
 
 Oapp/src/main/java/com/example/geofencinginitialdemo/LocationPermissionScreen.kt,a/e/ae6ed10c577df51105f5dd3b27547bb7c58377c8
+C
+settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
+s
+Capp/src/main/java/com/example/geofencinginitialdemo/SampleScreen.kt,7/a/7a30e199a3480009265f726dbfddf00a0fd2333f

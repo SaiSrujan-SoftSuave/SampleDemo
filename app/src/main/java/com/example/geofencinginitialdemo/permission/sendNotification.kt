@@ -1,9 +1,10 @@
-package com.example.geofencinginitialdemo
+package com.example.geofencinginitialdemo.permission
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import androidx.core.app.NotificationCompat
+import com.example.geofencinginitialdemo.R
 
 fun sendNotification(context: Context) {
     val channelId = "geofence_notification_channel"
@@ -20,6 +21,5 @@ fun sendNotification(context: Context) {
         .setContentText("You have been away from the geofence for over 45 minutes.")
         .setSmallIcon(R.drawable.ic_launcher_foreground)
         .build()
-
     notificationManager.notify(0, notification)
 }
